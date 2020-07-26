@@ -76,10 +76,12 @@ def insert_array(array_shoes: List[Shoes]):
         service.insert(shoes)
 
 
-def main():
-    # array_shoes = read_csv()
-    # insert_array(array_shoes)
+def insert_from_csv():
+    array_shoes = read_csv()
+    insert_array(array_shoes)
 
+
+def main():
     find_all_shoes()
 
 
