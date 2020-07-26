@@ -1,0 +1,11 @@
+id;name;brand;color;style
+nike_casual_1;Nike casual 1;:Nike;:White;:Casual
+nike_casual_2;Nike casual 2;:Nike;:Red;:Casual
+nike_running_1;Nike Running 1;:Nike;:White;:Running
+nike_social_1;Nike social 1;:Nike;:White;:Social
+adidas_casual_1;Adidas casual 1;:Adidas;:White;:Casual
+adidas_running_1;Adidas Running 1;:Adidas;:White;:Running
+adidas_running_2;Adidas Running 2;:Adidas;:Red;:Running
+adidas_running_3;Adidas Running 3;:Adidas;:Green;:Running
+adidas_social_1;Adidas social 1;:Adidas;:White;:Social
+adidas_social_2;Adidas social 2;:Adidas;:Green;:Social

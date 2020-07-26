@@ -1,0 +1,46 @@
+
+Roadmap - Empreenedorismo
+- Pesquisa
+	- Confirmar se as pessoas preferem trocar, doar ou vender.
+	- As pessoas aceitariam realizar a própria entrega?
+	- O quê as pessoas mais possuem e que gostariam de trocar? ex.: [calçado, livro, celular, computador, roupa]
+	- Trocar
+		- Querem negociar?
+		- Aceitam trocar por produtos mais baratos?	
+	- Doar
+		- Doar para qualquer um?
+		- Doar para ong?
+		- Doar para pessoas carentes?
+	- Vender
+		- Querem lucrar com a venda?
+		- Usariam o dinheiro da venda para uma troca?
+		- Usariam a venda no app como fonte de renda?
+
+- Tecnologia
+	- Arquitetura:
+		- Migrar para arquitetura servless
+		- Gerar estimativa de custo
+	- Algoritmo de sugestão 
+	- Frontend web para demonstração
+
+
+
+
+TODOS:
+- Criar o form para pesquisa
+- Desenho foda das telas
+- Navegabilidade do app 
+- Vídeo de apresentação
+- Algoritmo de sugestão
+- Simulação do algoritmo de sugestão
+- Arquitetura
+
+TODO next week
+Gabriel:
+- Desenho foda das telas
+
+Victor Soares:
+- Criar o form para pesquisa
+
+Victor Amorim:
+- Algoritmo de sugestão

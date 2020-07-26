@@ -1,0 +1,8 @@
+# insert correto
+INSERT DATA  {
+    GRAPH <http://mecansei.com/ontology/v1> {
+        :nike_run7 a :Shoes ;
+        :has_characteristic :Green , :Nike , :Running ;
+        :name "Nike Run7" .
+    }
+}

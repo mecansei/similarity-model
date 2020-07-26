@@ -1,0 +1,7 @@
+#select correto
+
+select * 
+FROM <http://mecansei.com/ontology/v1>{
+    ?p a :Shoes ;
+        ?r ?o .
+}

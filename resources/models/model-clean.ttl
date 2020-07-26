@@ -1,0 +1,46 @@
+@prefix : <http://api.stardog.com/> .
+@prefix stardog: <tag:stardog:api:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Shoes a owl:Class .
+
+:has_characteristic a owl:ObjectProperty ;
+    rdfs:label "has characteristic" ;
+    rdfs:domain :Shoes ;
+    rdfs:range :Characteristic .
+
+:Characteristic a owl:Class .
+
+:similar a owl:ObjectProperty ;
+    rdfs:label "is similar to" ;
+    rdfs:domain :Shoes ;
+    rdfs:range :Shoes .
+
+:Brand a owl:Class ;
+    rdfs:subClassOf :Characteristic .
+
+:Color a owl:Class ;
+    rdfs:subClassOf :Characteristic .
+
+:Size a owl:Class ;
+    rdfs:subClassOf :Characteristic .
+
+:Style a owl:Class ;
+    rdfs:subClassOf :Characteristic .
+
+:similarityRule a <tag:stardog:api:rule:SPARQLRule> ;
+    <tag:stardog:api:rule:content> """
+IF { 
+    ?color a :Color .
+    ?style a :Style .
+    ?shoes1 a :Shoes ;
+        :has_characteristic ?color, ?style .
+    ?shoes2 a :Shoes ;
+        :has_characteristic ?color, ?style .
+} THEN { 
+    ?shoes1 :similar ?shoes2 
+}
+""" .
